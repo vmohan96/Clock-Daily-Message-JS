@@ -1,1 +1,1 @@
-# Clock-Daily-Motivation-JS
+# Clock-Daily-Message-JS
