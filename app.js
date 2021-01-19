@@ -114,21 +114,36 @@ class DynamicMessage {
 
 
 function changeBGImage(){
-    var url_1 = "url(/assets/pexels-harrison-candlin-2441454.jpg)"
-    var url_2 = "url(/assets/pexels-aarti-vijay-2693529.jpg)"
-    var url_4 = ""
-    var url_5 = ""
-    var url_6 = ""
-    var url_7 = ""
-    var url_8 = ""
-    var url_9 = ""
-    var url_10 = ""
-    var url_11 = ""
-    var url_12 = ""
-    var url_13 = ""
-    var url_14 = ""
+    const now = new Date();
+    var day = now.getDay();
 
-    document.body.style.backgroundImage = url_2
+    var url_0 = "url(/assets/pexels-harrison-candlin-2441454.jpg)"
+    var url_1 = "url(/assets/pexels-aarti-vijay-2693529.jpg)"
+    var url_2 = "url(/assets/pexels-andy-vu-3244513.jpg)"
+    var url_3 = "url(/assets/pexels-francesco-ungaro-2325446.jpg)"
+    var url_4 = "url(/assets/pexels-janez-podnar-1424246.jpg)"
+    var url_5 = "url(/assets/pexels-lumn-167699.jpg)"
+    var url_6 = "url(/assets/pexels-rok-romih-3312671.jpg)"
+
+    var chosen_url = url_0;
+
+    if (day == 0) {
+        var chosen_url = 0
+    } else if (day == 1) {
+        var chosen_url = url_1
+    } else if (day == 2) {
+        var chosen_url = url_2 
+    } else if (day == 3) {
+        var chosen_url = url_3 
+    } else if (day == 4) {
+        var chosen_url = url_4 
+    } else if (day == 5) {
+        var chosen_url = url_5 
+    } else if (day == 6) {
+        var chosen_url = url_6 
+    }
+
+    document.body.style.backgroundImage = chosen_url;
 
 }
 
