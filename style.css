@@ -31,3 +31,9 @@
     font-size: 50px;
     color: aliceblue;
 }
+
+body {
+    background-image: url('/assets/pexels-aarti-vijay-2693529.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }

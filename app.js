@@ -113,7 +113,24 @@ class DynamicMessage {
 
 
 
+function changeBGImage(){
+    var url_1 = "url(/assets/pexels-harrison-candlin-2441454.jpg)"
+    var url_2 = "url(/assets/pexels-aarti-vijay-2693529.jpg)"
+    var url_4 = ""
+    var url_5 = ""
+    var url_6 = ""
+    var url_7 = ""
+    var url_8 = ""
+    var url_9 = ""
+    var url_10 = ""
+    var url_11 = ""
+    var url_12 = ""
+    var url_13 = ""
+    var url_14 = ""
 
+    document.body.style.backgroundImage = url_2
+
+}
 
 
 
@@ -127,4 +144,4 @@ const messageObject = new DynamicMessage(messageElement);
 
 messageObject.update();
 
-document.style.body.backgroundImage=url('/assets/pexels-harrison-candlin-2441454.jpg');
+changeBGImage();
