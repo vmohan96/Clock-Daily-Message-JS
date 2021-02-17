@@ -1,3 +1,8 @@
+body {
+    size: initial;
+}
+
+
 .clock {
     background: #333333;
     width: 500px;
@@ -21,15 +26,29 @@
 
 .message {
     text-align: center;
-    border-radius: 10px;
+    margin-left: 350px;
+    margin-right: 350px;
+    
+}
+
+.day-text {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    color: aliceblue;
     margin-left: auto;
     margin-right: auto;
 }
 
 .msg-text {
     font-family: 'Quicksand', sans-serif;
-    font-size: 50px;
+    font-size: 22px;
     color: aliceblue;
+    border-radius: 50px;
+}
+
+.playlist-intro {
+    font-family: 'Quicksand';
+    color:azure;
 }
 
 body {
